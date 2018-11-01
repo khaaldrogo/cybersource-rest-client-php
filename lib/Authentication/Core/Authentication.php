@@ -6,6 +6,7 @@ namespace CyberSource\Authentication\Core;
 use CyberSource\Authentication\Http\HttpSignatureGenerator as HttpSignatureGenerator;
 use CyberSource\Authentication\Jwt\JsonWebTokenGenerator as JsonWebTokenGenerator;
 use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
+use CyberSource\Authentication\Log\Logger as Logger;
 
 class Authentication 
 {

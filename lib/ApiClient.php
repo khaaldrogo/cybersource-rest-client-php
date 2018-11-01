@@ -28,9 +28,9 @@
  */
 
 namespace CyberSource;
-use CybsAuthSdk\Authentication as Authentication;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
-use CybsAuthSdk\PayloadDigest as PayloadDigest;
+use CyberSource\Authentication\Core\Authentication as Authentication;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
+use CyberSource\Authentication\PayloadDigest\PayloadDigest as PayloadDigest;
 
 /**
  * ApiClient Class Doc Comment

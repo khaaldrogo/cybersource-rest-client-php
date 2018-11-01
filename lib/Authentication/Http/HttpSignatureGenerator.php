@@ -2,10 +2,10 @@
 /*
 *Purpose : Generating token for HTTP Signature
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\PayloadDigest as PayloadDigest;
-use CybsAuthSdk\TokenGenerator as TokenGenerator;
-use CybsAuthSdk\AuthException as AuthException;
+namespace CyberSource\Authentication\Http;
+use CyberSource\Authentication\PayloadDigest\PayloadDigest as PayloadDigest;
+use CyberSource\Authentication\Core\TokenGenerator as TokenGenerator;
+use CyberSource\Authentication\Core\AuthException as AuthException;
  
 class HttpSignatureGenerator implements TokenGenerator
 {

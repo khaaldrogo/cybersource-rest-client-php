@@ -2,9 +2,9 @@
 /*
 *Purpose : Gnerate the JWT token
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
-use CybsAuthSdk\AuthException as AuthException;
+namespace CyberSource\Authentication\Jwt;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
+use CyberSource\Authentication\Core\AuthException as AuthException;
 use \Firebase\JWT\JWT;
 
 class JsonWebTokenHeader 

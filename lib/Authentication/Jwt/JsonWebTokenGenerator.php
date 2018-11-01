@@ -2,12 +2,12 @@
 /*
 *Purpose : calling the JWtoken 
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\PayloadDigest as PayloadDigest;
-use CybsAuthSdk\TokenGenerator as TokenGenerator;
-use CybsAuthSdk\AuthException as AuthException;
-use CybsAuthSdk\JsonWebTokenHeader as JsonWebTokenHeader;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
+namespace CyberSource\Authentication\Jwt;
+use CyberSource\Authentication\PayloadDigest\PayloadDigest as PayloadDigest;
+use CyberSource\Authentication\Core\TokenGenerator as TokenGenerator;
+use CyberSource\Authentication\Core\AuthException as AuthException;
+use CyberSource\Authentication\Jwt\JsonWebTokenHeader as JsonWebTokenHeader;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
 
 //calling the interface
 class JsonWebTokenGenerator implements TokenGenerator

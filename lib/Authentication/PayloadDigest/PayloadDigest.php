@@ -3,9 +3,9 @@
 Purpose: finding and Convertng request object
 */
 
-namespace CybsAuthSdk;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
-use CybsAuthSdk\AuthException as AuthException;
+namespace CyberSource\Authentication\PayloadDigest;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
+use CyberSource\Authentication\Core\AuthException as AuthException;
 
 class PayloadDigest
 {
