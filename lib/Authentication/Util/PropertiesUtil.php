@@ -2,8 +2,8 @@
 /*
 Purpose : Reading Input Config Json File
 */
-namespace CyberSource\Authentication\util;
-use CyberSource\Authentication\core\MerchantConfiguration as MerchantConfiguration;
+namespace CyberSource\Authentication\Util;
+use CyberSource\Authentication\Core\MerchantConfiguration as MerchantConfiguration;
 class PropertiesUtil
 {
 	

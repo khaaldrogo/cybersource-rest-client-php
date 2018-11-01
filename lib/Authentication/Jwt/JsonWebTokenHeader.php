@@ -5,7 +5,8 @@
 namespace CyberSource\Authentication\Jwt;
 use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
 use CyberSource\Authentication\Core\AuthException as AuthException;
-use \Firebase\JWT\JWT;
+use \Firebase\JWT\JWT as JWT;
+use CyberSource\Authentication\Log\Logger as Logger;
 
 class JsonWebTokenHeader 
 {

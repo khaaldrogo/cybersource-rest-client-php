@@ -1,5 +1,5 @@
 <?php
-namespace CyberSource\Authentication\util;
+namespace CyberSource\Authentication\Util;
 
 class GlobalParameter
 {

@@ -6,6 +6,7 @@ Purpose: finding and Convertng request object
 namespace CyberSource\Authentication\PayloadDigest;
 use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
 use CyberSource\Authentication\Core\AuthException as AuthException;
+use CyberSource\Authentication\Log\Logger as Logger;
 
 class PayloadDigest
 {

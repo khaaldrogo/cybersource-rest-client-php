@@ -1,5 +1,5 @@
 <?php
-namespace CyberSource\Authentication\log;
+namespace CyberSource\Authentication\Log;
 
 /*
 Log Logic has Finding , creating and roating log file.

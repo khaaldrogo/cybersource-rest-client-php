@@ -8,6 +8,7 @@ use CyberSource\Authentication\Core\TokenGenerator as TokenGenerator;
 use CyberSource\Authentication\Core\AuthException as AuthException;
 use CyberSource\Authentication\Jwt\JsonWebTokenHeader as JsonWebTokenHeader;
 use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
+use CyberSource\Authentication\Log\Logger as Logger;
 
 //calling the interface
 class JsonWebTokenGenerator implements TokenGenerator
