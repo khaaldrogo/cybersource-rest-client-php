@@ -14,7 +14,8 @@ $logDir = $baseDir . DIRECTORY_SEPARATOR . 'log' . DIRECTORY_SEPARATOR;
 $payloadDigestDir = $baseDir . DIRECTORY_SEPARATOR . 'payloadDigest' . DIRECTORY_SEPARATOR;
 $utilDir = $baseDir . DIRECTORY_SEPARATOR . 'util' . DIRECTORY_SEPARATOR;
 
-$vendorDir = $baseDir . '/vendor';
+$vendorDir = $baseDir . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR;
+
 return array(
 	'CybsAuthSdk\Authentication' => $coreDir . 'Authentication.php',
 	'CybsAuthSdk\MerchantConfiguration' => $coreDir . 'MerchantConfiguration.php',
@@ -27,5 +28,6 @@ return array(
 	'CybsAuthSdk\PropertiesUtil' => $utilDir . 'PropertiesUtil.php',
 	'CybsAuthSdk\Logger' => $logDir . 'Logger.php',
 	'CybsAuthSdk\PayloadDigest' => $payloadDigestDir . 'PayloadDigest.php',
-	'CybsAuthSdk\JWT\JWT' => $jwtDir . 'php-jwt-master/src/PayloadDigest.php'
+	'CybsAuthSdk\JWT\JWT' => $jwtDir . 'php-jwt-master/src/PayloadDigest.php',
+	'Firebase\JWT\JWT' => $vendorDir . 'firebase/php-jwt/src/JWT.php'
 );
