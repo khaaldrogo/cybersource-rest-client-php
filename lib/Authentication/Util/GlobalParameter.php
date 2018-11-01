@@ -1,5 +1,5 @@
 <?php
-namespace CybsAuthSdk;
+namespace CyberSource\Authentication\util;
 
 class GlobalParameter
 {

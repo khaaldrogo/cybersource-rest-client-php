@@ -1,5 +1,5 @@
 <?php
-namespace CybsAuthSdk;
+namespace CyberSource\Authentication\log;
 
 /*
 Log Logic has Finding , creating and roating log file.

@@ -2,10 +2,10 @@
 /*
 *Purpose: Merchant Config contains credentials and8 keys for Authentication and API Information
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\Logger as Logger;
-use CybsAuthSdk\AuthException as AuthException;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
+namespace CyberSource\Authentication\Core;
+use CyberSource\Authentication\Log\Logger as Logger;
+use CyberSource\Authentication\Core\AuthException as AuthException;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
 
 class MerchantConfiguration
 {

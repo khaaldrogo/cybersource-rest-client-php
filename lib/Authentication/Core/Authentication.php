@@ -2,10 +2,10 @@
 /*
 Purpose : This is focusly on split the services HTTP or JWT 
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\HttpSignatureGenerator as HttpSignatureGenerator;
-use CybsAuthSdk\JsonWebTokenGenerator as JsonWebTokenGenerator;
-use CybsAuthSdk\GlobalParameter as GlobalParameter;
+namespace CyberSource\Authentication\Core;
+use CyberSource\Authentication\Http\HttpSignatureGenerator as HttpSignatureGenerator;
+use CyberSource\Authentication\Jwt\JsonWebTokenGenerator as JsonWebTokenGenerator;
+use CyberSource\Authentication\Util\GlobalParameter as GlobalParameter;
 
 class Authentication 
 {

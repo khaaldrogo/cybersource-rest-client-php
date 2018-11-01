@@ -3,7 +3,7 @@
  * ApiException
 
  */
-namespace CybsAuthSdk;
+namespace CyberSource\Authentication\Core;
 
 use \Exception;
 

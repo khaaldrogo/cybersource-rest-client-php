@@ -1,6 +1,6 @@
 <?php
 
-namespace CybsAuthSdk;
+namespace CyberSource\Authentication\Core;
 
 interface TokenGenerator
 {

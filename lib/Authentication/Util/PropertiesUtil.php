@@ -2,8 +2,8 @@
 /*
 Purpose : Reading Input Config Json File
 */
-namespace CybsAuthSdk;
-use CybsAuthSdk\MerchantConfiguration as MerchantConfiguration;
+namespace CyberSource\Authentication\util;
+use CyberSource\Authentication\core\MerchantConfiguration as MerchantConfiguration;
 class PropertiesUtil
 {
 	
