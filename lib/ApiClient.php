@@ -32,7 +32,6 @@ use CybsAuthSdk\Authentication as Authentication;
 use CybsAuthSdk\GlobalParameter as GlobalParameter;
 use CybsAuthSdk\PayloadDigest as PayloadDigest;
 
-require_once('../authentication-sdk/autoload.php');
 /**
  * ApiClient Class Doc Comment
  *

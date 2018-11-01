@@ -6,7 +6,7 @@ namespace CybsAuthSdk;
 use CybsAuthSdk\GlobalParameter as GlobalParameter;
 use CybsAuthSdk\AuthException as AuthException;
 use \Firebase\JWT\JWT;
-require_once('../authentication-sdk/vendor/autoload.php');
+
 class JsonWebTokenHeader 
 {
 	private static $logger=null;
