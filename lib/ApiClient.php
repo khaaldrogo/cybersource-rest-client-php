@@ -381,7 +381,7 @@ class ApiClient
     */
     public function callAuthenticationHeader($method, $postData, $resourcePath)
     {
-        require_once './Resource/ExternalConfiguration.php';
+        require_once './Resources/ExternalConfiguration.php';
 
         $ExternalConfigurationObj = new ExternalConfiguration();
         $merchantConfig = $ExternalConfigurationObj->merchantConfigObject();
